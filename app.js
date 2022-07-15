@@ -28,7 +28,7 @@ const connection = mysql.createConnection({
 
 // Route
 app.get('/', (req, res) => {
-  res.send('Welcome to my API!');
+  res.send('ESTA API ESTA CORRIENDO');
 });
 
 // all customers
