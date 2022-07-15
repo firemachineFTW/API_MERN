@@ -15,12 +15,14 @@ app.use(bodyParser.json());
 
 // MySql
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'firemachineFTW.23',
-  database: 'partes', 
+  host: 'us-cdbr-east-06.cleardb.net',
+  user: 'b680881e89fef6',
+  password: '3c91f2db',
+  database: 'heroku_75173ff99f41fcf', 
   insecureAuth : true
 });
+
+
 
 
 
